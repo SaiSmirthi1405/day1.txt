@@ -1,0 +1,128 @@
+   1. class Main {
+    public static void main(String[] args) {
+        int age = 26;
+        if(age>16)
+        {
+         System.out.println("valid");
+       }
+       else if(age==16)
+       {
+           System.out.println("Age is 16");
+       }
+       else
+       {
+            System.out.println("Invalid");
+
+
+
+    2.        String gender = "male";
+            if(age>=21 && gender=="female");
+            {
+                System.out.println("Age is 16");
+             }
+             else if(age>=23 )
+
+
+   3.        class Main {
+    public static void main(String[] args) {
+        String gender ="female";
+        int age = 18;
+        if(age<18 || gender=="female")
+        {
+            System.out.println("Ticket is free");
+        }
+        else{
+            System.out.println("Ticket is not free");
+
+String gender ="female";
+        int age = 18;
+        if(age<18 || gender=="male")
+        {
+            System.out.println("Ticket is free");
+        }
+        else{
+            System.out.println("Ticket is not free");
+
+
+  4.  class Main {
+    public static void main(String[] args) {
+      int km = 20;
+      switch(km){
+          case 5:{
+              System.out.println("Rupees 50");
+              break;
+          }
+          case 10:{
+              System.out.println("Rupees 100");
+              break;
+          }
+          default:{
+              System.out.println("Not applicable");
+
+
+  5. class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<5;)
+        {
+            //i+=2;
+            i=i+2;
+            System.out.println(i);
+
+
+ 6. class Main {
+    public static void main(String[] args) {
+        int i=5;
+        while(i<10)
+        {
+            i++;
+            System.out.println(i);
+
+7.class Main {
+    public static void main(String[] args) {
+        int i=5;
+        do
+        {
+            System.out.println(i);
+            i++;
+        }while(i<5);
+
+  8. class Main {
+    //Function Definition
+    void myMethod()
+    {
+        System.out.println("Printing");
+    }
+    public static void main(String[] args) {
+        //To access the method
+        //Creating obj to main class
+        Main mi = new Main();
+        mi.myMethod();
+
+
+ 9. class Main {
+    //Function Definition
+    int myMethod(int a, int b)
+    {
+         return a+b;
+    }
+    public static void main(String[] args) {
+        //To access the method
+        //Creating obj to main class
+        Main mi = new Main();
+       System.out.print(mi.myMethod(10,7)
+}
+    }
+}
+
+DAY 1 TASK:
+
+ 10. class Main {
+  public static void main(String[] args) {
+      for(int i=1;i<=100;i++) {
+      if (i%2==0) {
+          System.out.println(i);
+      }
+  }
+      }
+    }   
+       
